@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SLAM at Home</title>
+    <link rel="stylesheet" href="style.css">
+  
+</head>
+<body>
+  <img class="TeamImg" src="Bannerv4copy.jpg" alt="Team banner">
+      <img style="width: 25%;"  src="SLAMLogo.png" alt="SlamLogo">
+        <a class="aIPaddress"></a><h4 class="ipAddress"></h4></a>
+        <a href="https://w.amazon.com/bin/view/SlamAtHome/" target="_blank" rel="noopener noreferrer" class= "HowToUse">HELP</a> 
+     
+       <div class="formDiv">   
+        
+        <form>
+            Weight Input Mode:
+            <div class="form-check">
+                <input class="form-check-input" type="radio" name="inputMode" id="Manual" value="Manual" default >
+                <label class="form-check-label" for="Manual">
+                  Manual
+                </label>
+              </div>
+              <div class="form-check">
+                <input class="form-check-input" type="radio" name="inputMode" id="Scale" value="Scale"  >
+                <label class="form-check-label" for="Scale">
+                  Scale
+                </label>
+              </div>
+              
+              <div class="WeightScaleDiv">
+                <h4 class="WeightScale"></h4>
+              </div>
+            
+              <div class="enterWeight">
+              Enter weight:                      <!--This okeypress value disables enter-->
+              <input class="weightValue" value="" onkeypress="return (event.keyCode!=13)"; type="text" name ="weight"></br>
+            </br>
+              <button type="button" onclick="weightEntered()">Submit Weight</button></br>
+              <h4 class="WeightSubmitted"></h4>
+            </div>
+            <p class="ErrorP"></p>
+           </div>
+        </form>
+    
+    </div>
+    <!--Footer-->
+    <footer class="footer">
+      <div>
+        <p>The "SLAM at Home" tool allows users to SLAM off network from a Windows PC. Enabling SLAM Test 100% Virtually.</p>
+      </div>
+      
+      <div class="credits">
+        <p style="line-height: 1.2; word-break: break-word; font-family: Lato, Tahoma, Verdana, Segoe, sans-serif; mso-line-height-alt: 17px; margin: 0;"><a  href="https://w.amazon.com/bin/view/NACF_Launch_Testing" rel="noopener" style="text-decoration: none; color: white;" target="_blank" title="Made by @jreinoso"><span>Brought you by <strong style="color:#00ace6;">Launch Process Testing Team</strong></span></a> </br><a style="text-decoration: none; color: white;" href="https://phonetool.amazon.com/users/jreinoso"> Developed by <strong style="color:#00ace6;">@Jreinoso </strong> </a> </p>
+      </div>
+      <br>
+      
+    </footer>
+
+
+<script type="text/javascript" type="module" src="pageActions/inputMode.js"></script> 
+
+</body>
+</html>

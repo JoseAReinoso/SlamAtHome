@@ -1,0 +1,21 @@
+turn off VPN
+Turn off wifi for 10 seconds, turn it back on
+close mozilla firefox or any other brower
+CDM and do the following
+ipconfig/release   then wait 10 seconds
+ipconfig/renew   then wait 10 seconds
+start software center and type clear on search field and click on "clear print spooler"
+
+to check if ip address
+
+Install nodejs version 12.18.3 = https://nodejs.org/download/release/v12.18.3/node-v12.18.3-x64.msi 
+install pm2 = windows powershell and "npm install -g pm2" 
+a windows firewall is going open, make sure to allow it.
+
+
+//path issues
+https://medium.com/@dkerrious/electron-packager-file-path-issue-24f4bcbfc970
+
+
+
+Process Testing

@@ -1,0 +1,33 @@
+//for html part and javascript = https://www.youtube.com/watch?v=X0IhLH9so9U
+//for electron nodeJS/server/ SQL database = https://www.youtube.com/watch?v=BJ-9hOAfmJM
+//https://www.youtube.com/watch?v=8xAr-ynS-bk
+
+
+//https://itnext.io/4-solutions-to-run-multiple-node-js-or-npm-commands-simultaneously-9edaa6215a93
+
+//package the app https://www.youtube.com/watch?v=rP7j_hDL40Y
+
+//start the server and electron links =
+//https://futurestud.io/tutorials/pm2-cluster-mode-and-zero-downtime-restarts
+//https://stackoverflow.com/questions/45922351/set-up-a-server-from-within-an-electron-app
+
+//Check this solution first thing = https://stackoverflow.com/questions/34458417/run-node-js-server-file-automatically-after-launching-electron-app
+
+//https://stackoverflow.com/questions/52407025/client-server-communication-in-node-js
+
+//windows installer = https://ourcodeworld.com/articles/read/365/how-to-create-a-windows-installer-for-an-application-built-with-electron-framework
+
+//https://www.youtube.com/watch?v=TnXz_nnQZrw  Create Desktop App + Installer with HTML/CSS/JS - Electron Tutorial 2020
+
+
+IMPORTANT = 
+"HOW TO RUN SERIALPORT ON ELECTRON"
+http://meow.noopkat.com/using-node-serialport-in-an-electron-app/
+
+//
+using signtool.exe to sign package
+https://revolution.screenstepslive.com/s/revolution/m/10695/l/563371-signing-installers-you-create-with-inno-setup
+
+//Client side communication
+//https://stackoverflow.com/questions/52407025/client-server-communication-in-node-js
+
