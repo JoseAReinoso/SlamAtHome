@@ -4,4 +4,4 @@ Please note only members of Launch team is authorized to use this tool for virtu
 
 # how to package this app ?
 
-* Once you git clone this project, npm install it and then run electron-packager . SLAM_at_Home --asar --platform=win32 --arch=x64 --icon=slamlogoforico.ico to create the package.
+* Once you git clone this project, npm install it and then run " electron-packager . SLAM_at_Home --asar --platform=win32 --arch=x64 --icon=slamlogoforico.ico" to create the package.
